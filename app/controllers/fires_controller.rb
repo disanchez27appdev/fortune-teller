@@ -1,4 +1,4 @@
-class FireController < ApplicationController
+class FiresController < ApplicationController
   def ram
     @horoscope = "As your professional dreams unfold, Aries, you may worry about the downside. First, there are new responsibilities that you might doubt your ability to fulfill. Second, you might be catapulted into an uncomfortable new realm of office politics. Don't let these matters put a damper on your enthusiasm. You have what it takes to fulfill the first concern and the wisdom to avoid the second. 
     Onward and upward."
@@ -25,7 +25,7 @@ class FireController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "flame_interface/cleo.html.erb" })
+    render({ :template => "flame_interface/leo.html.erb" })
   end
 
   def archer
@@ -39,6 +39,6 @@ class FireController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "fire_interface/sagitarrius.html.erb" })
+    render({ :template => "flame_interface/sagittarius.html.erb" })
   end
 end
