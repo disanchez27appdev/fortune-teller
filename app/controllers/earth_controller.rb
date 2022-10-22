@@ -18,7 +18,7 @@ class EarthController < ApplicationController
     Take a moment to rework your schedule to accomplish the most in the least amount of time. You can do it."
 
     @array_of_numbers = Array.new
-
+debugger
     5.times do
       another_number = rand(1...100)
       
